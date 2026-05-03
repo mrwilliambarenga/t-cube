@@ -1,3 +1,28 @@
+# Created by https://www.toptal.com/developers/gitignore/api/git,dotenv,visualstudiocode,go,react,cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,dotenv,visualstudiocode,go,react,cmake
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+CMakeUserPresets.json
+
+# External projects
+*-prefix/
+
+### dotenv ###
+.env
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -70,3 +95,5 @@ sketch
 # Ignore all local history of files
 .history
 .ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/git,dotenv,visualstudiocode,go,react,cmake
