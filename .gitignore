@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go,cmake,dotenv,visualstudiocode,git,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,cmake,dotenv,visualstudiocode,git,react
+# Created by https://www.toptal.com/developers/gitignore/api/git,dotenv,visualstudiocode,go,react,cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,dotenv,visualstudiocode,go,react,cmake
 
 ### CMake ###
 CMakeLists.txt.user
@@ -96,4 +96,4 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/go,cmake,dotenv,visualstudiocode,git,react
+# End of https://www.toptal.com/developers/gitignore/api/git,dotenv,visualstudiocode,go,react,cmake
