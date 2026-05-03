@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/dotenv,go,visualstudiocode,cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=dotenv,go,visualstudiocode,cmake
+# Created by https://www.toptal.com/developers/gitignore/api/go,cmake,dotenv,visualstudiocode,git,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,cmake,dotenv,visualstudiocode,git,react
 
 ### CMake ###
 CMakeLists.txt.user
@@ -22,6 +22,21 @@ CMakeUserPresets.json
 
 ### dotenv ###
 .env
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
@@ -46,6 +61,22 @@ CMakeUserPresets.json
 # Go workspace file
 go.work
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -65,4 +96,4 @@ go.work
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/dotenv,go,visualstudiocode,cmake
+# End of https://www.toptal.com/developers/gitignore/api/go,cmake,dotenv,visualstudiocode,git,react
